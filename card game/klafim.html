@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   
+    <title>klafim</title>
+</head>
+<link rel="stylesheet" href="klafim.css">
+<body>
+
+<h1 class="h1">MY CARD GAME</h1>
+<h2 class="h2" id="won"></h2>
+
+<div class="nameC"><p >computer</p></div>
+<div class="nameP"><p  id="sachName"> player</p></div>
+
+<br><br><br><br>
+
+<div class="cardC"><img id="cardC" src="opp.jpg" height="300px" width="200px"></div>
+<div class="cardP"><img id="cardP" src="opp.jpg" height="300px" width="200px"></div>
+<br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+<div class="scoreC">
+    <p>score :</p>
+    <p id="scorC"></p>
+</div>
+
+<div class="scoreP">
+    <p>score: </p>
+    <p id="scoreP"></p>
+</div>
+
+<div class="button1">
+    <button onclick="getCard()" id="play" style="font-size:x-large">GET A CARD!</button>
+</div>
+
+<br/>
+
+<div class="button2">
+    <button onclick="startGame()" id="play" style="font-size:x-large">PLAY AGAIN</button>
+ </div>
+
+    
+    <script src="klafim.js"></script>
+</body>
+</html>
